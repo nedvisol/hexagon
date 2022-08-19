@@ -1,7 +1,7 @@
 {
   "name": "serverless-hexagon-plugin",
   "version": "0.1.0",
-  "description": "> TODO: description",
+  "description": "Serverless plugin for building portable NodeJS micro and nano-services using Hexagon library",
   "author": "Ned Visolyaputra <0_ratios.mutes@icloud.com>",
   "homepage": "https://github.com/nedvisol/hexagon#readme",
   "license": "MIT",

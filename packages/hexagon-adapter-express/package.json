@@ -1,7 +1,7 @@
 {
   "name": "@nedvisol/hexagon-adapter-express",
   "version": "0.1.0",
-  "description": "> TODO: description",
+  "description": "ExpressJS adapter for building portable NodeJS microservice",
   "author": "Ned Visolyaputra <0_ratios.mutes@icloud.com>",
   "homepage": "https://github.com/nedvisol/hexagon#readme",
   "license": "MIT",
