@@ -1,0 +1,26 @@
+import { <%- controller.name %> } from '<%= moduleImport %>';
+
+const controller = new <%- controller.name %>;
+
+export const main = async (event:any) => {    
+    const args = Array(<%- restMethod.parameters?Object.keys(restMethod.parameters).length: 0%>);
+    <%        
+        if (restMethod.parameters) {
+            for (const paramIndex of Object.keys(restMethod.parameters)) {
+                const paramMetadata = restMethod.parameters[paramIndex];
+                var paramVal = null;
+                if (paramMetadata.paramType == 'path') {
+                    %>
+    args[<%- paramIndex %>] = event.pathParameters?event.pathParameters['<%- paramMetadata.paramName %>']:null;
+                    <%
+                }                
+            }
+        }
+
+    %>
+    return {
+        statusCode: 200,
+        body: JSON.stringify(await controller.<%- propertyKey %>.apply(controller, args))
+    };    
+}
+            

@@ -1,0 +1,38 @@
+{
+  "name": "@nedvisol/hexagon-root",
+  "description": "Utility library for building portable node micro/nanoservice using Hexagonal architecture",
+  "author": "Ned Visolyaputra <0_ratios.mutes@icloud.com>",
+  "homepage": "https://github.com/nedvisol/hexagon#readme",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . -c .eslintrc.json --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nedvisol/hexagon.git"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.4",
+    "@types/rewire": "^2.5.28",
+    "@types/sinon": "^10.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.22.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "lerna": "^5.4.2",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "rewire": "^6.0.0",
+    "sinon": "^14.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

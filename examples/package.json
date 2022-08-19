@@ -1,0 +1,48 @@
+{
+  "name": "@nedvisol/hexagon-examples",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "Ned Visolyaputra <0_ratios.mutes@icloud.com>",
+  "homepage": "https://github.com/nedvisol/hexagon#readme",
+  "license": "MIT",
+  "main": "lib/hexagon-examples.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nedvisol/hexagon.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/nedvisol/hexagon/issues"
+  },
+  "dependencies": {
+    "@nedvisol/hexagon-adapter-express": "^0.0.0",
+    "@nedvisol/hexagon-core": "^0.0.0",
+    "@types/express": "^4.17.13",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "serverless-hexagon-plugin": "^0.0.0",
+    "ts-mock-imports": "^1.3.8"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.0.0",
+    "@types/aws-lambda": "^8.10.71",
+    "@types/node": "^14.14.25",
+    "esbuild": "^0.14.54",
+    "serverless": "^3.0.0",
+    "serverless-esbuild": "^1.23.3",
+    "serverless-offline": "^9.2.0",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.1.3"
+  }
+}
