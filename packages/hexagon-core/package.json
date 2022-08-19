@@ -1,6 +1,6 @@
 {
   "name": "@nedvisol/hexagon-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typescript decorators for building portable NodeJS micro/nano-services",
   "author": "Ned Visolyaputra <0_ratios.mutes@icloud.com>",
   "homepage": "https://github.com/nedvisol/hexagon#readme",
